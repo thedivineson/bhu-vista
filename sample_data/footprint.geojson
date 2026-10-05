@@ -1,0 +1,53 @@
+{
+  "type": "FeatureCollection",
+  "name": "Footprint_BLD-MUM-001",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:EPSG::32643"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-MUM-001",
+        "building_name": "Syndicate Heights",
+        "parent_ulpin": "12345678901234",
+        "area_sqm": 384.0,
+        "envelope_tolerance_m": 0.15,
+        "crs": "EPSG:32643",
+        "data_origin": "SYNTHETIC",
+        "algorithm_version": "1.0.0",
+        "generated_at": "2026-10-02T07:34:32.589964+00:00"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              278492.0,
+              2110495.0
+            ],
+            [
+              278516.0,
+              2110495.0
+            ],
+            [
+              278516.0,
+              2110511.0
+            ],
+            [
+              278492.0,
+              2110511.0
+            ],
+            [
+              278492.0,
+              2110495.0
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

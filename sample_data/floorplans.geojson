@@ -1,0 +1,543 @@
+{
+  "type": "FeatureCollection",
+  "name": "Floorplans_BLD-MUM-001",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:EPSG::32643"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "unit_code": "B01-U01",
+        "unit_name": "Basement Parking & Service Utility",
+        "level_code": "B01",
+        "level_name": "Basement Level 1",
+        "parent_ulpin": "12345678901234",
+        "building_id": "BLD-MUM-001",
+        "order_index": 1,
+        "expected_volume_id": "001",
+        "use_type": "UTILITY_PARKING",
+        "zmin": -3.2,
+        "zmax": 0.0,
+        "height_m": 3.2,
+        "is_subsurface": true,
+        "deliberate_conflict_participant": false,
+        "deliberate_conflict_description": null,
+        "deliberate_amber_low_confidence": false,
+        "deliberate_amber_description": null,
+        "evidence_spec": {
+          "control_points_count": 4,
+          "registration_residual_m": 0.025,
+          "point_cloud_density_pct": 92.0,
+          "edge_alignment_score": 0.95
+        },
+        "crs": "EPSG:32643",
+        "data_origin": "SYNTHETIC",
+        "algorithm_version": "1.0.0",
+        "generated_at": "2026-10-02T07:34:32.590728+00:00"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              278492.0,
+              2110495.0
+            ],
+            [
+              278516.0,
+              2110495.0
+            ],
+            [
+              278516.0,
+              2110511.0
+            ],
+            [
+              278492.0,
+              2110511.0
+            ],
+            [
+              278492.0,
+              2110495.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "unit_code": "G00-U01",
+        "unit_name": "West Lobby & Reception",
+        "level_code": "G00",
+        "level_name": "Ground Floor",
+        "parent_ulpin": "12345678901234",
+        "building_id": "BLD-MUM-001",
+        "order_index": 1,
+        "expected_volume_id": "002",
+        "use_type": "COMMERCIAL_LOBBY",
+        "zmin": 0.0,
+        "zmax": 3.2,
+        "height_m": 3.2,
+        "is_subsurface": false,
+        "deliberate_conflict_participant": false,
+        "deliberate_conflict_description": null,
+        "deliberate_amber_low_confidence": false,
+        "deliberate_amber_description": null,
+        "evidence_spec": {
+          "control_points_count": 4,
+          "registration_residual_m": 0.02,
+          "point_cloud_density_pct": 95.0,
+          "edge_alignment_score": 0.98
+        },
+        "crs": "EPSG:32643",
+        "data_origin": "SYNTHETIC",
+        "algorithm_version": "1.0.0",
+        "generated_at": "2026-10-02T07:34:32.590750+00:00"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              278492.0,
+              2110495.0
+            ],
+            [
+              278504.0,
+              2110495.0
+            ],
+            [
+              278504.0,
+              2110511.0
+            ],
+            [
+              278492.0,
+              2110511.0
+            ],
+            [
+              278492.0,
+              2110495.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "unit_code": "G00-U02",
+        "unit_name": "East Community Hall",
+        "level_code": "G00",
+        "level_name": "Ground Floor",
+        "parent_ulpin": "12345678901234",
+        "building_id": "BLD-MUM-001",
+        "order_index": 2,
+        "expected_volume_id": "003",
+        "use_type": "COMMUNITY_AMENITY",
+        "zmin": 0.0,
+        "zmax": 3.2,
+        "height_m": 3.2,
+        "is_subsurface": false,
+        "deliberate_conflict_participant": false,
+        "deliberate_conflict_description": null,
+        "deliberate_amber_low_confidence": false,
+        "deliberate_amber_description": null,
+        "evidence_spec": {
+          "control_points_count": 4,
+          "registration_residual_m": 0.022,
+          "point_cloud_density_pct": 94.0,
+          "edge_alignment_score": 0.97
+        },
+        "crs": "EPSG:32643",
+        "data_origin": "SYNTHETIC",
+        "algorithm_version": "1.0.0",
+        "generated_at": "2026-10-02T07:34:32.590760+00:00"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              278504.0,
+              2110495.0
+            ],
+            [
+              278516.0,
+              2110495.0
+            ],
+            [
+              278516.0,
+              2110511.0
+            ],
+            [
+              278504.0,
+              2110511.0
+            ],
+            [
+              278504.0,
+              2110495.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "unit_code": "F01-U01",
+        "unit_name": "Apartment 101 (West)",
+        "level_code": "F01",
+        "level_name": "First Floor",
+        "parent_ulpin": "12345678901234",
+        "building_id": "BLD-MUM-001",
+        "order_index": 1,
+        "expected_volume_id": "004",
+        "use_type": "RESIDENTIAL",
+        "zmin": 3.2,
+        "zmax": 6.4,
+        "height_m": 3.2,
+        "is_subsurface": false,
+        "deliberate_conflict_participant": false,
+        "deliberate_conflict_description": null,
+        "deliberate_amber_low_confidence": false,
+        "deliberate_amber_description": null,
+        "evidence_spec": {
+          "control_points_count": 4,
+          "registration_residual_m": 0.02,
+          "point_cloud_density_pct": 91.0,
+          "edge_alignment_score": 0.96
+        },
+        "crs": "EPSG:32643",
+        "data_origin": "SYNTHETIC",
+        "algorithm_version": "1.0.0",
+        "generated_at": "2026-10-02T07:34:32.590766+00:00"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              278492.0,
+              2110495.0
+            ],
+            [
+              278504.0,
+              2110495.0
+            ],
+            [
+              278504.0,
+              2110511.0
+            ],
+            [
+              278492.0,
+              2110511.0
+            ],
+            [
+              278492.0,
+              2110495.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "unit_code": "F01-U02",
+        "unit_name": "Apartment 102 (East)",
+        "level_code": "F01",
+        "level_name": "First Floor",
+        "parent_ulpin": "12345678901234",
+        "building_id": "BLD-MUM-001",
+        "order_index": 2,
+        "expected_volume_id": "005",
+        "use_type": "RESIDENTIAL",
+        "zmin": 3.2,
+        "zmax": 6.4,
+        "height_m": 3.2,
+        "is_subsurface": false,
+        "deliberate_conflict_participant": false,
+        "deliberate_conflict_description": null,
+        "deliberate_amber_low_confidence": false,
+        "deliberate_amber_description": null,
+        "evidence_spec": {
+          "control_points_count": 4,
+          "registration_residual_m": 0.018,
+          "point_cloud_density_pct": 93.0,
+          "edge_alignment_score": 0.97
+        },
+        "crs": "EPSG:32643",
+        "data_origin": "SYNTHETIC",
+        "algorithm_version": "1.0.0",
+        "generated_at": "2026-10-02T07:34:32.590771+00:00"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              278504.0,
+              2110495.0
+            ],
+            [
+              278516.0,
+              2110495.0
+            ],
+            [
+              278516.0,
+              2110511.0
+            ],
+            [
+              278504.0,
+              2110511.0
+            ],
+            [
+              278504.0,
+              2110495.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "unit_code": "F02-U01",
+        "unit_name": "Apartment 201 (West - Conflict Target)",
+        "level_code": "F02",
+        "level_name": "Second Floor",
+        "parent_ulpin": "12345678901234",
+        "building_id": "BLD-MUM-001",
+        "order_index": 1,
+        "expected_volume_id": "006",
+        "use_type": "RESIDENTIAL",
+        "zmin": 6.4,
+        "zmax": 9.6,
+        "height_m": 3.2,
+        "is_subsurface": false,
+        "deliberate_conflict_participant": true,
+        "deliberate_conflict_description": null,
+        "deliberate_amber_low_confidence": false,
+        "deliberate_amber_description": null,
+        "evidence_spec": {
+          "control_points_count": 4,
+          "registration_residual_m": 0.021,
+          "point_cloud_density_pct": 89.0,
+          "edge_alignment_score": 0.94
+        },
+        "crs": "EPSG:32643",
+        "data_origin": "SYNTHETIC",
+        "algorithm_version": "1.0.0",
+        "generated_at": "2026-10-02T07:34:32.590777+00:00"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              278492.0,
+              2110495.0
+            ],
+            [
+              278504.0,
+              2110495.0
+            ],
+            [
+              278504.0,
+              2110511.0
+            ],
+            [
+              278492.0,
+              2110511.0
+            ],
+            [
+              278492.0,
+              2110495.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "unit_code": "F02-U02",
+        "unit_name": "Apartment 202 (East - 1.5m Encroachment)",
+        "level_code": "F02",
+        "level_name": "Second Floor",
+        "parent_ulpin": "12345678901234",
+        "building_id": "BLD-MUM-001",
+        "order_index": 2,
+        "expected_volume_id": "007",
+        "use_type": "RESIDENTIAL",
+        "zmin": 6.4,
+        "zmax": 9.6,
+        "height_m": 3.2,
+        "is_subsurface": false,
+        "deliberate_conflict_participant": true,
+        "deliberate_conflict_description": "Deliberate RED conflict: Unit boundary extended 1.5m Westward into Apartment 201 (X=278502.5 instead of 278504.0). Overlap volume = 1.5m * 16.0m * 3.20m = 76.80 m3.",
+        "deliberate_amber_low_confidence": false,
+        "deliberate_amber_description": null,
+        "evidence_spec": {
+          "control_points_count": 4,
+          "registration_residual_m": 0.024,
+          "point_cloud_density_pct": 88.0,
+          "edge_alignment_score": 0.93
+        },
+        "crs": "EPSG:32643",
+        "data_origin": "SYNTHETIC",
+        "algorithm_version": "1.0.0",
+        "generated_at": "2026-10-02T07:34:32.590782+00:00"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              278502.5,
+              2110495.0
+            ],
+            [
+              278516.0,
+              2110495.0
+            ],
+            [
+              278516.0,
+              2110511.0
+            ],
+            [
+              278502.5,
+              2110511.0
+            ],
+            [
+              278502.5,
+              2110495.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "unit_code": "F03-U01",
+        "unit_name": "Apartment 301 (West - High Confidence)",
+        "level_code": "F03",
+        "level_name": "Third Floor",
+        "parent_ulpin": "12345678901234",
+        "building_id": "BLD-MUM-001",
+        "order_index": 1,
+        "expected_volume_id": "008",
+        "use_type": "RESIDENTIAL",
+        "zmin": 9.6,
+        "zmax": 12.8,
+        "height_m": 3.2,
+        "is_subsurface": false,
+        "deliberate_conflict_participant": false,
+        "deliberate_conflict_description": null,
+        "deliberate_amber_low_confidence": false,
+        "deliberate_amber_description": null,
+        "evidence_spec": {
+          "control_points_count": 4,
+          "registration_residual_m": 0.019,
+          "point_cloud_density_pct": 91.0,
+          "edge_alignment_score": 0.95
+        },
+        "crs": "EPSG:32643",
+        "data_origin": "SYNTHETIC",
+        "algorithm_version": "1.0.0",
+        "generated_at": "2026-10-02T07:34:32.590786+00:00"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              278492.0,
+              2110495.0
+            ],
+            [
+              278504.0,
+              2110495.0
+            ],
+            [
+              278504.0,
+              2110511.0
+            ],
+            [
+              278492.0,
+              2110511.0
+            ],
+            [
+              278492.0,
+              2110495.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "unit_code": "F03-U02",
+        "unit_name": "Apartment 302 (East - Weak Evidence)",
+        "level_code": "F03",
+        "level_name": "Third Floor",
+        "parent_ulpin": "12345678901234",
+        "building_id": "BLD-MUM-001",
+        "order_index": 2,
+        "expected_volume_id": "009",
+        "use_type": "RESIDENTIAL",
+        "zmin": 9.6,
+        "zmax": 12.8,
+        "height_m": 3.2,
+        "is_subsurface": false,
+        "deliberate_conflict_participant": false,
+        "deliberate_conflict_description": null,
+        "deliberate_amber_low_confidence": true,
+        "deliberate_amber_description": "Deliberate AMBER case: Valid closed solid geometry, but registration uses only 2 control points with high residual (0.12m), and point cloud support is sparse (50% occlusion). Expected confidence score ~0.60.",
+        "evidence_spec": {
+          "control_points_count": 2,
+          "registration_residual_m": 0.12,
+          "point_cloud_density_pct": 50.0,
+          "edge_alignment_score": 0.9
+        },
+        "crs": "EPSG:32643",
+        "data_origin": "SYNTHETIC",
+        "algorithm_version": "1.0.0",
+        "generated_at": "2026-10-02T07:34:32.590791+00:00"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              278504.0,
+              2110495.0
+            ],
+            [
+              278516.0,
+              2110495.0
+            ],
+            [
+              278516.0,
+              2110511.0
+            ],
+            [
+              278504.0,
+              2110511.0
+            ],
+            [
+              278504.0,
+              2110495.0
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

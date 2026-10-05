@@ -1,0 +1,271 @@
+{
+  "seed": 42,
+  "data_origin": "SYNTHETIC",
+  "crs": "EPSG:32643",
+  "vertical_datum": "LOCAL_GROUND_Z0",
+  "building_name": "Syndicate Heights",
+  "building_id": "BLD-MUM-001",
+  "envelope_tolerance_m": 0.15,
+  "parcel": {
+    "parent_ulpin": "12345678901234",
+    "district": "Mumbai Suburban",
+    "taluka": "Bandra",
+    "village": "Kurla",
+    "survey_number": "142/3",
+    "area_sqm": 2000.0,
+    "coordinates": [
+      [278480.0, 2110485.0],
+      [278530.0, 2110485.0],
+      [278530.0, 2110525.0],
+      [278480.0, 2110525.0],
+      [278480.0, 2110485.0]
+    ]
+  },
+  "building_footprint": {
+    "area_sqm": 384.0,
+    "coordinates": [
+      [278492.0, 2110495.0],
+      [278516.0, 2110495.0],
+      [278516.0, 2110511.0],
+      [278492.0, 2110511.0],
+      [278492.0, 2110495.0]
+    ]
+  },
+  "levels": [
+    {
+      "level_code": "B01",
+      "level_name": "Basement Level 1",
+      "zmin": -3.20,
+      "zmax": 0.00,
+      "height_m": 3.20,
+      "is_subsurface": true,
+      "units": [
+        {
+          "unit_code": "B01-U01",
+          "unit_name": "Basement Parking & Service Utility",
+          "order_index": 1,
+          "expected_volume_id": "001",
+          "use_type": "UTILITY_PARKING",
+          "coordinates": [
+            [278492.0, 2110495.0],
+            [278516.0, 2110495.0],
+            [278516.0, 2110511.0],
+            [278492.0, 2110511.0],
+            [278492.0, 2110495.0]
+          ],
+          "evidence_spec": {
+            "control_points_count": 4,
+            "registration_residual_m": 0.025,
+            "point_cloud_density_pct": 92.0,
+            "edge_alignment_score": 0.95
+          }
+        }
+      ]
+    },
+    {
+      "level_code": "G00",
+      "level_name": "Ground Floor",
+      "zmin": 0.00,
+      "zmax": 3.20,
+      "height_m": 3.20,
+      "is_subsurface": false,
+      "units": [
+        {
+          "unit_code": "G00-U01",
+          "unit_name": "West Lobby & Reception",
+          "order_index": 1,
+          "expected_volume_id": "002",
+          "use_type": "COMMERCIAL_LOBBY",
+          "coordinates": [
+            [278492.0, 2110495.0],
+            [278504.0, 2110495.0],
+            [278504.0, 2110511.0],
+            [278492.0, 2110511.0],
+            [278492.0, 2110495.0]
+          ],
+          "evidence_spec": {
+            "control_points_count": 4,
+            "registration_residual_m": 0.020,
+            "point_cloud_density_pct": 95.0,
+            "edge_alignment_score": 0.98
+          }
+        },
+        {
+          "unit_code": "G00-U02",
+          "unit_name": "East Community Hall",
+          "order_index": 2,
+          "expected_volume_id": "003",
+          "use_type": "COMMUNITY_AMENITY",
+          "coordinates": [
+            [278504.0, 2110495.0],
+            [278516.0, 2110495.0],
+            [278516.0, 2110511.0],
+            [278504.0, 2110511.0],
+            [278504.0, 2110495.0]
+          ],
+          "evidence_spec": {
+            "control_points_count": 4,
+            "registration_residual_m": 0.022,
+            "point_cloud_density_pct": 94.0,
+            "edge_alignment_score": 0.97
+          }
+        }
+      ]
+    },
+    {
+      "level_code": "F01",
+      "level_name": "First Floor",
+      "zmin": 3.20,
+      "zmax": 6.40,
+      "height_m": 3.20,
+      "is_subsurface": false,
+      "units": [
+        {
+          "unit_code": "F01-U01",
+          "unit_name": "Apartment 101 (West)",
+          "order_index": 1,
+          "expected_volume_id": "004",
+          "use_type": "RESIDENTIAL",
+          "coordinates": [
+            [278492.0, 2110495.0],
+            [278504.0, 2110495.0],
+            [278504.0, 2110511.0],
+            [278492.0, 2110511.0],
+            [278492.0, 2110495.0]
+          ],
+          "evidence_spec": {
+            "control_points_count": 4,
+            "registration_residual_m": 0.020,
+            "point_cloud_density_pct": 91.0,
+            "edge_alignment_score": 0.96
+          }
+        },
+        {
+          "unit_code": "F01-U02",
+          "unit_name": "Apartment 102 (East)",
+          "order_index": 2,
+          "expected_volume_id": "005",
+          "use_type": "RESIDENTIAL",
+          "coordinates": [
+            [278504.0, 2110495.0],
+            [278516.0, 2110495.0],
+            [278516.0, 2110511.0],
+            [278504.0, 2110511.0],
+            [278504.0, 2110495.0]
+          ],
+          "evidence_spec": {
+            "control_points_count": 4,
+            "registration_residual_m": 0.018,
+            "point_cloud_density_pct": 93.0,
+            "edge_alignment_score": 0.97
+          }
+        }
+      ]
+    },
+    {
+      "level_code": "F02",
+      "level_name": "Second Floor",
+      "zmin": 6.40,
+      "zmax": 9.60,
+      "height_m": 3.20,
+      "is_subsurface": false,
+      "units": [
+        {
+          "unit_code": "F02-U01",
+          "unit_name": "Apartment 201 (West - Conflict Target)",
+          "order_index": 1,
+          "expected_volume_id": "006",
+          "use_type": "RESIDENTIAL",
+          "deliberate_conflict_participant": true,
+          "coordinates": [
+            [278492.0, 2110495.0],
+            [278504.0, 2110495.0],
+            [278504.0, 2110511.0],
+            [278492.0, 2110511.0],
+            [278492.0, 2110495.0]
+          ],
+          "evidence_spec": {
+            "control_points_count": 4,
+            "registration_residual_m": 0.021,
+            "point_cloud_density_pct": 89.0,
+            "edge_alignment_score": 0.94
+          }
+        },
+        {
+          "unit_code": "F02-U02",
+          "unit_name": "Apartment 202 (East - 1.5m Encroachment)",
+          "order_index": 2,
+          "expected_volume_id": "007",
+          "use_type": "RESIDENTIAL",
+          "deliberate_conflict_participant": true,
+          "deliberate_conflict_description": "Deliberate RED conflict: Unit boundary extended 1.5m Westward into Apartment 201 (X=278502.5 instead of 278504.0). Overlap volume = 1.5m * 16.0m * 3.20m = 76.80 m3.",
+          "coordinates": [
+            [278502.5, 2110495.0],
+            [278516.0, 2110495.0],
+            [278516.0, 2110511.0],
+            [278502.5, 2110511.0],
+            [278502.5, 2110495.0]
+          ],
+          "evidence_spec": {
+            "control_points_count": 4,
+            "registration_residual_m": 0.024,
+            "point_cloud_density_pct": 88.0,
+            "edge_alignment_score": 0.93
+          }
+        }
+      ]
+    },
+    {
+      "level_code": "F03",
+      "level_name": "Third Floor",
+      "zmin": 9.60,
+      "zmax": 12.80,
+      "height_m": 3.20,
+      "is_subsurface": false,
+      "units": [
+        {
+          "unit_code": "F03-U01",
+          "unit_name": "Apartment 301 (West - High Confidence)",
+          "order_index": 1,
+          "expected_volume_id": "008",
+          "use_type": "RESIDENTIAL",
+          "coordinates": [
+            [278492.0, 2110495.0],
+            [278504.0, 2110495.0],
+            [278504.0, 2110511.0],
+            [278492.0, 2110511.0],
+            [278492.0, 2110495.0]
+          ],
+          "evidence_spec": {
+            "control_points_count": 4,
+            "registration_residual_m": 0.019,
+            "point_cloud_density_pct": 91.0,
+            "edge_alignment_score": 0.95
+          }
+        },
+        {
+          "unit_code": "F03-U02",
+          "unit_name": "Apartment 302 (East - Weak Evidence)",
+          "order_index": 2,
+          "expected_volume_id": "009",
+          "use_type": "RESIDENTIAL",
+          "deliberate_amber_low_confidence": true,
+          "deliberate_amber_description": "Deliberate AMBER case: Valid closed solid geometry, but registration uses only 2 control points with high residual (0.12m), and point cloud support is sparse (50% occlusion). Expected confidence score ~0.60.",
+          "coordinates": [
+            [278504.0, 2110495.0],
+            [278516.0, 2110495.0],
+            [278516.0, 2110511.0],
+            [278504.0, 2110511.0],
+            [278504.0, 2110495.0]
+          ],
+          "evidence_spec": {
+            "control_points_count": 2,
+            "registration_residual_m": 0.12,
+            "point_cloud_density_pct": 50.0,
+            "edge_alignment_score": 0.90
+          }
+        }
+      ]
+    }
+  ]
+}

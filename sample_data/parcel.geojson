@@ -1,0 +1,54 @@
+{
+  "type": "FeatureCollection",
+  "name": "Parcel_12345678901234",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:EPSG::32643"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "parent_ulpin": "12345678901234",
+        "district": "Mumbai Suburban",
+        "taluka": "Bandra",
+        "village": "Kurla",
+        "survey_number": "142/3",
+        "area_sqm": 2000.0,
+        "crs": "EPSG:32643",
+        "data_origin": "SYNTHETIC",
+        "algorithm_version": "1.0.0",
+        "generated_at": "2026-10-02T07:34:32.589219+00:00"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              278480.0,
+              2110485.0
+            ],
+            [
+              278530.0,
+              2110485.0
+            ],
+            [
+              278530.0,
+              2110525.0
+            ],
+            [
+              278480.0,
+              2110525.0
+            ],
+            [
+              278480.0,
+              2110485.0
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "asset": {
+    "version": "1.1",
+    "generator": "BHU-VISTA 3D 3D Tiles Exporter 1.0.0"
+  },
+  "geometricError": 500.0,
+  "root": {
+    "transform": [
+      -0.9557670813207291,
+      0.2941246100952024,
+      0.0,
+      0.0,
+      -0.09612360626028993,
+      -0.3123566524123335,
+      0.945089188390851,
+      0.0,
+      0.27797398904065035,
+      0.9032851351761003,
+      0.326812524219502,
+      0.0,
+      1773590.3589543474,
+      5763337.111735388,
+      2071241.52274435,
+      1.0
+    ],
+    "boundingVolume": {
+      "box": [
+        0.0,
+        0.0,
+        4.8,
+        14.0,
+        0.0,
+        0.0,
+        0.0,
+        10.0,
+        0.0,
+        0.0,
+        0.0,
+        8.5
+      ]
+    },
+    "geometricError": 50.0,
+    "refine": "ADD",
+    "children": [
+      {
+        "boundingVolume": {
+          "box": [
+            0.0,
+            0.0,
+            -1.6,
+            13.0,
+            0.0,
+            0.0,
+            0.0,
+            9.0,
+            0.0,
+            0.0,
+            0.0,
+            1.7
+          ]
+        },
+        "geometricError": 0.0,
+        "content": {
+          "uri": "levels/B01.glb"
+        },
+        "extras": {
+          "level_code": "B01",
+          "zmin": -3.2,
+          "zmax": 0.0,
+          "unit_count": 1,
+          "volume_ids": [
+            "001"
+          ],
+          "data_origin": "SYNTHETIC"
+        }
+      },
+      {
+        "boundingVolume": {
+          "box": [
+            0.0,
+            0.0,
+            1.6,
+            13.0,
+            0.0,
+            0.0,
+            0.0,
+            9.0,
+            0.0,
+            0.0,
+            0.0,
+            1.7
+          ]
+        },
+        "geometricError": 0.0,
+        "content": {
+          "uri": "levels/G00.glb"
+        },
+        "extras": {
+          "level_code": "G00",
+          "zmin": 0.0,
+          "zmax": 3.2,
+          "unit_count": 2,
+          "volume_ids": [
+            "002",
+            "003"
+          ],
+          "data_origin": "SYNTHETIC"
+        }
+      },
+      {
+        "boundingVolume": {
+          "box": [
+            0.0,
+            0.0,
+            4.8,
+            13.0,
+            0.0,
+            0.0,
+            0.0,
+            9.0,
+            0.0,
+            0.0,
+            0.0,
+            1.7
+          ]
+        },
+        "geometricError": 0.0,
+        "content": {
+          "uri": "levels/F01.glb"
+        },
+        "extras": {
+          "level_code": "F01",
+          "zmin": 3.2,
+          "zmax": 6.4,
+          "unit_count": 2,
+          "volume_ids": [
+            "004",
+            "005"
+          ],
+          "data_origin": "SYNTHETIC"
+        }
+      },
+      {
+        "boundingVolume": {
+          "box": [
+            0.0,
+            0.0,
+            8.0,
+            13.0,
+            0.0,
+            0.0,
+            0.0,
+            9.0,
+            0.0,
+            0.0,
+            0.0,
+            1.7
+          ]
+        },
+        "geometricError": 0.0,
+        "content": {
+          "uri": "levels/F02.glb"
+        },
+        "extras": {
+          "level_code": "F02",
+          "zmin": 6.4,
+          "zmax": 9.6,
+          "unit_count": 2,
+          "volume_ids": [
+            "006",
+            "007"
+          ],
+          "data_origin": "SYNTHETIC"
+        }
+      },
+      {
+        "boundingVolume": {
+          "box": [
+            0.0,
+            0.0,
+            11.2,
+            13.0,
+            0.0,
+            0.0,
+            0.0,
+            9.0,
+            0.0,
+            0.0,
+            0.0,
+            1.7
+          ]
+        },
+        "geometricError": 0.0,
+        "content": {
+          "uri": "levels/F03.glb"
+        },
+        "extras": {
+          "level_code": "F03",
+          "zmin": 9.6,
+          "zmax": 12.8,
+          "unit_count": 2,
+          "volume_ids": [
+            "008",
+            "009"
+          ],
+          "data_origin": "SYNTHETIC"
+        }
+      }
+    ]
+  },
+  "extras": {
+    "project": "BHU-VISTA 3D",
+    "team": "Syndicate (ID: 127351)",
+    "problem_statement": "SIH26011",
+    "data_origin": "SYNTHETIC",
+    "crs_horizontal": "EPSG:32643",
+    "vertical_datum": "LOCAL_GROUND_Z0",
+    "geo_reference": {
+      "lon_deg": 72.89494740769324,
+      "lat_deg": 19.07542243991438,
+      "ecef_x": 1773590.3589543474,
+      "ecef_y": 5763337.111735388,
+      "ecef_z": 2071241.52274435
+    }
+  }
+}

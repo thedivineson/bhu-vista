@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "project": "BHU-VISTA 3D (Aayam)",
+  "team": "Syndicate (ID 127351)",
+  "problem_statement": "SIH26011",
+  "version_manifest": {
+    "postgresql": "16.2",
+    "postgis": "3.4.2",
+    "sfcgal": "1.5.1",
+    "redis": "7.2.4",
+    "python": "3.11.8",
+    "fastapi": "0.115.0",
+    "uvicorn": "0.30.6",
+    "celery": "5.4.0",
+    "pydantic": "2.8.2",
+    "shapely": "2.0.6",
+    "trimesh": "4.4.3",
+    "pyproj": "3.6.1",
+    "laspy": "2.7.0",
+    "pdal": "2.7.1",
+    "open3d": "0.18.0",
+    "node": "20.14.0",
+    "cesium": "1.120.0",
+    "resium": "1.17.3",
+    "react": "18.3.1",
+    "vite": "5.4.0"
+  },
+  "notes": "Exact pinned versions for all core infrastructure, database extensions, spatial calculation engines, API frameworks, and 3D visualization layers."
+}

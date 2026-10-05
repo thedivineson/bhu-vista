@@ -1,0 +1,92 @@
+version: "3.8"
+
+services:
+  postgis:
+    image: postgis/postgis:16-3.4
+    container_name: bhuvista-postgis
+    environment:
+      POSTGRES_DB: bhuvista3d
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ../cadastre:/docker-entrypoint-initdb.d/init-scripts:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d bhuvista3d"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+
+  redis:
+    image: redis:7.2-alpine
+    container_name: bhuvista-redis
+    ports:
+      - "6379:6379"
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+
+  api:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.api
+    container_name: bhuvista-api
+    command: uvicorn api.main:app --host 0.0.0.0 --port 8000 --reload
+    environment:
+      DATABASE_URL: postgresql://postgres:postgres@postgis:5432/bhuvista3d
+      REDIS_URL: redis://redis:6379/0
+      DATA_ORIGIN: SYNTHETIC
+    ports:
+      - "8000:8000"
+    volumes:
+      - ..:/app
+    depends_on:
+      postgis:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    restart: unless-stopped
+
+  worker:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.api
+    container_name: bhuvista-worker
+    command: celery -A api.worker.celery_app worker --loglevel=info
+    environment:
+      DATABASE_URL: postgresql://postgres:postgres@postgis:5432/bhuvista3d
+      REDIS_URL: redis://redis:6379/0
+      DATA_ORIGIN: SYNTHETIC
+    volumes:
+      - ..:/app
+    depends_on:
+      redis:
+        condition: service_healthy
+      postgis:
+        condition: service_healthy
+    restart: unless-stopped
+
+  viewer:
+    build:
+      context: ../viewer
+      dockerfile: ../docker/Dockerfile.viewer
+    container_name: bhuvista-viewer
+    ports:
+      - "5173:5173"
+    environment:
+      VITE_API_URL: http://localhost:8000
+    volumes:
+      - ../viewer:/app
+      - /app/node_modules
+    depends_on:
+      - api
+    restart: unless-stopped
+
+volumes:
+  pgdata:

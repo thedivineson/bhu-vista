@@ -1,0 +1,172 @@
+{
+  "building_id": "BLD-MUM-001",
+  "parent_ulpin": "12345678901234",
+  "total_units": 9,
+  "units": [
+    {
+      "volume_id": "001",
+      "unit_code": "B01-U01",
+      "unit_name": "Basement Parking & Service Utility",
+      "level_code": "B01",
+      "zmin": -3.2,
+      "zmax": 0.0,
+      "parent_ulpin": "12345678901234",
+      "deliberate_conflict": false,
+      "deliberate_amber": false,
+      "evidence": {
+        "control_points_count": 4,
+        "registration_residual_m": 0.025,
+        "point_cloud_density_pct": 92.0,
+        "edge_alignment_score": 0.95
+      },
+      "data_origin": "SYNTHETIC"
+    },
+    {
+      "volume_id": "002",
+      "unit_code": "G00-U01",
+      "unit_name": "West Lobby & Reception",
+      "level_code": "G00",
+      "zmin": 0.0,
+      "zmax": 3.2,
+      "parent_ulpin": "12345678901234",
+      "deliberate_conflict": false,
+      "deliberate_amber": false,
+      "evidence": {
+        "control_points_count": 4,
+        "registration_residual_m": 0.02,
+        "point_cloud_density_pct": 95.0,
+        "edge_alignment_score": 0.98
+      },
+      "data_origin": "SYNTHETIC"
+    },
+    {
+      "volume_id": "003",
+      "unit_code": "G00-U02",
+      "unit_name": "East Community Hall",
+      "level_code": "G00",
+      "zmin": 0.0,
+      "zmax": 3.2,
+      "parent_ulpin": "12345678901234",
+      "deliberate_conflict": false,
+      "deliberate_amber": false,
+      "evidence": {
+        "control_points_count": 4,
+        "registration_residual_m": 0.022,
+        "point_cloud_density_pct": 94.0,
+        "edge_alignment_score": 0.97
+      },
+      "data_origin": "SYNTHETIC"
+    },
+    {
+      "volume_id": "004",
+      "unit_code": "F01-U01",
+      "unit_name": "Apartment 101 (West)",
+      "level_code": "F01",
+      "zmin": 3.2,
+      "zmax": 6.4,
+      "parent_ulpin": "12345678901234",
+      "deliberate_conflict": false,
+      "deliberate_amber": false,
+      "evidence": {
+        "control_points_count": 4,
+        "registration_residual_m": 0.02,
+        "point_cloud_density_pct": 91.0,
+        "edge_alignment_score": 0.96
+      },
+      "data_origin": "SYNTHETIC"
+    },
+    {
+      "volume_id": "005",
+      "unit_code": "F01-U02",
+      "unit_name": "Apartment 102 (East)",
+      "level_code": "F01",
+      "zmin": 3.2,
+      "zmax": 6.4,
+      "parent_ulpin": "12345678901234",
+      "deliberate_conflict": false,
+      "deliberate_amber": false,
+      "evidence": {
+        "control_points_count": 4,
+        "registration_residual_m": 0.018,
+        "point_cloud_density_pct": 93.0,
+        "edge_alignment_score": 0.97
+      },
+      "data_origin": "SYNTHETIC"
+    },
+    {
+      "volume_id": "006",
+      "unit_code": "F02-U01",
+      "unit_name": "Apartment 201 (West - Conflict Target)",
+      "level_code": "F02",
+      "zmin": 6.4,
+      "zmax": 9.6,
+      "parent_ulpin": "12345678901234",
+      "deliberate_conflict": true,
+      "deliberate_amber": false,
+      "evidence": {
+        "control_points_count": 4,
+        "registration_residual_m": 0.021,
+        "point_cloud_density_pct": 89.0,
+        "edge_alignment_score": 0.94
+      },
+      "data_origin": "SYNTHETIC"
+    },
+    {
+      "volume_id": "007",
+      "unit_code": "F02-U02",
+      "unit_name": "Apartment 202 (East - 1.5m Encroachment)",
+      "level_code": "F02",
+      "zmin": 6.4,
+      "zmax": 9.6,
+      "parent_ulpin": "12345678901234",
+      "deliberate_conflict": true,
+      "deliberate_amber": false,
+      "evidence": {
+        "control_points_count": 4,
+        "registration_residual_m": 0.024,
+        "point_cloud_density_pct": 88.0,
+        "edge_alignment_score": 0.93
+      },
+      "data_origin": "SYNTHETIC"
+    },
+    {
+      "volume_id": "008",
+      "unit_code": "F03-U01",
+      "unit_name": "Apartment 301 (West - High Confidence)",
+      "level_code": "F03",
+      "zmin": 9.6,
+      "zmax": 12.8,
+      "parent_ulpin": "12345678901234",
+      "deliberate_conflict": false,
+      "deliberate_amber": false,
+      "evidence": {
+        "control_points_count": 4,
+        "registration_residual_m": 0.019,
+        "point_cloud_density_pct": 91.0,
+        "edge_alignment_score": 0.95
+      },
+      "data_origin": "SYNTHETIC"
+    },
+    {
+      "volume_id": "009",
+      "unit_code": "F03-U02",
+      "unit_name": "Apartment 302 (East - Weak Evidence)",
+      "level_code": "F03",
+      "zmin": 9.6,
+      "zmax": 12.8,
+      "parent_ulpin": "12345678901234",
+      "deliberate_conflict": false,
+      "deliberate_amber": true,
+      "evidence": {
+        "control_points_count": 2,
+        "registration_residual_m": 0.12,
+        "point_cloud_density_pct": 50.0,
+        "edge_alignment_score": 0.9
+      },
+      "data_origin": "SYNTHETIC"
+    }
+  ],
+  "data_origin": "SYNTHETIC",
+  "algorithm_version": "1.0.0",
+  "generated_at": "2026-10-02T07:34:32.592091+00:00"
+}
